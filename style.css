@@ -1,0 +1,216 @@
+body {
+    font-family:Verdana;
+    font-size: 1.7vh;
+    min-width: 625px;
+}
+
+.center {
+    text-align: center;
+}
+.marginleft {
+    margin-left: 5px;
+}
+.redbg {
+    background-color: rgb(227, 176, 176);
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 700px;
+    padding-top: 0;
+}
+
+.info1 {
+    padding-top: 30px;
+    padding-left: 0.1vw;
+}
+.img1 {
+    width: 30%;
+    object-fit: cover;
+    height: 250px;
+    float: left;
+    border: 2px solid rgb(255, 88, 88);
+    border-radius: 10px;
+    margin-left: 5%;
+}
+.txt1 {
+    float: left; 
+    width: 50%;
+    height: 250px;
+    margin-left: 10%;
+    margin-top: 50px;
+    color: rgb(119, 15, 15);
+}
+
+.info2 {
+    padding-top: 250px;
+    padding-left: 90px;
+    margin: auto;
+}
+.img2 {
+    width: 30%;
+    height: 250px;
+    object-fit: cover;
+    float: right;
+    border: 2px solid rgb(255, 88, 88);
+    border-radius: 10px;
+    margin-right: 100px;
+    margin-top: 50px;
+
+}
+.txt2 {
+    float: left; 
+    width: 42%;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 5%;
+    color: rgb(119, 15, 15);
+
+
+}
+
+.margintop {
+    margin-top: 50px;
+}
+
+dt,.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.newsdesc {
+    margin-left: 30px;
+}
+table {
+    border: 2px solid black;
+}
+.greenbg {
+    background-color: rgb(200, 247, 200);
+}
+.pinkbg {
+    background-color: rgb(250, 205, 213);
+}
+.info {
+    border: 2px inset rgb(220, 220, 220, 0.3);
+    overflow: scroll;
+}
+.phoneimg, .instaimg, .emailimg {
+    width: 50px;
+    height: 50px;
+}
+.phonenum, .emailadd, .ig {
+    padding-left: 15px;
+    float: right;
+    padding-top: 15px;
+}
+.teleDiv, .emailDiv, .instaDiv {
+    float: left;
+    display: block;
+}
+.container{
+    width: 250px;
+}
+.navigate{
+    list-style: none;
+}
+
+.navigate li{
+    display: inline;
+    margin-right: 20px;
+}
+.tokyoimgs {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.historyboxes {
+    border: 2px solid black;
+    height: 360px;
+    width: 30%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.blueborder {
+    border: 5px inset rgb(174, 202, 235);
+    height: 356px;
+
+}
+.txt3 {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: scroll;
+    resize: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+.c2{
+    width: 100vw;
+    white-space: nowrap;
+    display: block;
+    padding: 10px;
+}
+.txt4 {
+    display: block;
+}
+.bot {
+    margin-top: auto;
+}
+.totoroimg {
+    width: 70px;
+    height: 60px;
+    float: right;
+}
+.commentSec {
+    height: 100px;
+}
+.sendButton {
+    color: white;
+    background-color: black;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.align{
+    width: 60vw;
+}
+.inline{
+    width: 100vw;
+    min-width: 800px;
+}
+.marginbot {
+    margin-bottom: 7px;
+}
+
+.onText {
+    position: absolute;
+    margin: auto;
+    top: 28px;
+    left: 12px;
+    color: rgb(147, 120, 172);
+}
+.sakuraBox{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+.sakuraImg{
+    width: 100%;
+    height: 100%;
+}
+.abs{
+    position: absolute;
+    left: 10px;
+}
+
+.body2{
+    min-width: 800px;
+}
